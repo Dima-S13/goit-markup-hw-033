@@ -48,6 +48,9 @@ img {
   align-items: center;
   display: flex;
 }
+.header-menu {
+  gap: 40px;
+}
 
 .site-head {
   border-bottom: 1px solid #e7e9fc;
@@ -70,6 +73,7 @@ img {
   text-transform: uppercase;
   color: var(--button-list-color);
   margin-right: 76px;
+  margin-bottom: 16px;
 }
 .logo-head {
   font-family: "Raleway", sans-serif;
@@ -97,7 +101,7 @@ img {
   color: var(--body-text);
   display: flex;
   gap: 24px;
-  align-items: center;
+  text-align: center;
 }
 .menu-title {
   margin-bottom: 8px;
@@ -188,7 +192,7 @@ img {
   gap: 24px;
 }
 .guys-name {
-  padding: 32px 16px 32px;
+  padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   margin: auto;
@@ -197,6 +201,7 @@ img {
 /* ============== Porfolio ==================== */
 .list-container {
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 .portfolio-section {
   padding: 96px 0 120px;
@@ -239,8 +244,8 @@ img {
   background-color: var(--background-color);
   gap: 24px;
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
   display: flex;
+  width: calc((100% - 72px) / 4);
 }
 .menu-title {
   font-weight: 500;
@@ -298,4 +303,17 @@ img {
   color: var(--button-list-background);
   margin-right: 76px;
   display: inline-block;
+  margin-bottom: 16px;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.portfolio-links {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.list-item:not(:nth-child(3n)) {
+  margin-bottom: 48px;
 }
