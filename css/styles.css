@@ -45,11 +45,15 @@ img {
 }
 /* ================== Header ==================== */
 .head-container {
-  align-items: center;
   display: flex;
+  align-items: center;
   gap: 40px;
 }
-
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .site-head {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
@@ -99,8 +103,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: nowrap;
 }
 .team-menu {
   display: flex;
@@ -118,7 +122,8 @@ img {
 }
 .menu-item-about {
   justify-content: center;
-  align-items: center;
+  max-width: 264px;
+  gap: 24px;
 }
 
 .menu-link {
@@ -209,6 +214,7 @@ img {
 .list-container {
   flex-wrap: wrap;
   row-gap: 48px;
+  column-gap: 24px;
 }
 .portfolio-section {
   padding: 96px 0 120px;
