@@ -202,10 +202,18 @@ img {
   display: flex;
   gap: 24;
 }
+.about-menu {
+  margin-right: 24px;
+  gap: 24px;
+}
 .second-section {
   padding-bottom: 120px;
 }
-.what-the {
+.skills-menu {
+  margin-right: 24px;
+  gap: 24px;
+}
+.skills-item {
   width: calc((100% - 48px) / 3);
   gap: 24px;
 }
@@ -324,4 +332,5 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  padding: 32px 16px;
 }
