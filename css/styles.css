@@ -55,11 +55,12 @@ img {
   padding-top: 24px;
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .site-nav {
-  display: flex;
   align-items: center;
   margin: auto;
+  display: flex;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -98,9 +99,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
-  text-align: center;
+  flex-wrap: wrap;
   display: flex;
-  justify-content: baseline;
 }
 .team-menu {
   display: flex;
@@ -110,13 +110,17 @@ img {
 .menu-title {
   margin-bottom: 8px;
 }
+
 .menu-item {
-  gap: 24px;
-  display: flex;
-  align-items: center;
+  background-color: var(--background-color);
+
   width: calc((100% - 72px) / 4);
-  margin-right: 40px;
 }
+.menu-item-about {
+  justify-content: center;
+  align-items: center;
+}
+
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -128,6 +132,10 @@ img {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--selection-color);
+}
+.guys-name {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* =============== Contact information ============== */
@@ -196,12 +204,6 @@ img {
   width: calc((100% - 48px) / 3);
   gap: 24px;
 }
-.guys-name {
-  padding: 32px 16px;
-  border-radius: 0px 0px 4px 4px;
-  text-align: center;
-  margin: auto;
-}
 
 /* ============== Porfolio ==================== */
 .list-container {
@@ -245,13 +247,7 @@ img {
   background: var(--selection-color);
   border: 1px solid transparent;
 }
-.menu-item {
-  background-color: var(--background-color);
-  gap: 24px;
-  margin-right: 24px;
-  display: flex;
-  width: calc((100% - 72px) / 4);
-}
+
 .list-item {
   width: calc((100% - 48px) / 3);
 }
