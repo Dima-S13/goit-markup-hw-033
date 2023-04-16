@@ -334,7 +334,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--button-list-background);
-  margin-right: 76px;
+  margin-left: auto;
+  padding: 24px auto;
   display: inline-block;
   margin-bottom: 16px;
 }
