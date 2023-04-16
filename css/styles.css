@@ -84,7 +84,8 @@ button {
   text-transform: uppercase;
   color: var(--button-list-color);
   margin-left: auto;
-  margin: 24px 76px 24px 155px;
+  padding: 24px auto;
+  margin-right: 76px;
 }
 .logo-head {
   font-family: "Raleway", sans-serif;
@@ -133,7 +134,6 @@ button {
   max-width: 264px;
   gap: 24px;
   width: calc((100% - 72px) / 4);
-  display: flex;
 }
 
 .menu-link {
@@ -286,7 +286,7 @@ button {
   display: inline-block;
 }
 .suptitle-about {
-  max-width: 264px;
+  max-width: 265px;
 }
 .suptitle {
   font-size: 16px;
