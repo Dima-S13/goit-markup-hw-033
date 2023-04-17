@@ -54,7 +54,6 @@ button {
 .head-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .header-menu {
   display: flex;
@@ -70,7 +69,6 @@ button {
 .site-nav {
   padding: 24px 0;
   align-items: center;
-  margin: auto;
   display: flex;
 }
 .logo {
@@ -96,12 +94,13 @@ button {
   color: var(--second-background-color);
   text-transform: uppercase;
 }
-
+.address {
+  margin-left: auto;
+}
 .address-menu {
   font-style: normal;
   display: flex;
   gap: 40px;
-  margin-left: auto;
 }
 .menu {
   list-style: none;
