@@ -125,7 +125,6 @@ button {
 
 .menu-item {
   background-color: var(--background-color);
-  margin-right: 40px;
   align-items: flex-start;
 }
 .menu-item-about {
@@ -291,7 +290,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
-  max-width: 264px;
 }
 
 .title {
