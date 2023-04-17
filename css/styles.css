@@ -126,6 +126,7 @@ button {
 .menu-item {
   background-color: var(--background-color);
   align-items: flex-start;
+  border-radius: 0px 0px 4px 4px;
 }
 .menu-item-about {
   max-width: 264px;
